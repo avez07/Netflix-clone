@@ -139,6 +139,36 @@ body{
     font-size: 40px;
     
 }
+.btn-3{
+    width: 95%;
+    text-align: left;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 600;
+   background-color: #2d2d2d;
+   color: white;
+}
+.btn-3:hover{
+    background-color: #4d4a4a;
+}
+.head3{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+#dropdwon{
+    background-color: #000;
+}
+.para{
+    background-color:#2d2d2d ;
+    color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 0;
+    font-size: 24px;
+    padding: 10px 20px;
+}
 @media only screen and (max-width: 767px) {
 body{
     text-align: center;
@@ -210,7 +240,4 @@ body{
     position: static;
     margin-bottom: 30px;
 }
-}
-@media only screen and (min-width: 768px) {
-    
 }
