@@ -1,0 +1,113 @@
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0
+}
+.head-1{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    
+    
+}
+.btn-1{
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 15px;
+    margin-left: 10px;
+}
+.drop{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #000;
+    padding: 7px 15px 7px 30px;
+}
+
+.earth{
+    position: relative;
+    color: white;
+    left: 33px;
+    font-size: 19px;
+    top: 1.5px;
+}
+.head{
+    height: 658px;
+    background: linear-gradient(to top, #000000cc 0, #00000000 60%, #000000cc 100%) ,url("images/Netflix-Background.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.search{
+    height: 590px;
+}
+.text1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.text2{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.text3{
+    font-size: 20px;
+}
+.email-search{
+    padding: 24px 16px 8px ;
+    width: 100%;
+    background-color: #0000008f;
+    color: white;
+    border-radius: 7px;
+    outline: 1px solid white;
+}
+.form{
+    width: 60%;
+    margin: auto;
+}
+.email-search::placeholder{
+    color: rgb(184, 181, 181);
+}
+.btn-2{
+    background-color: #e50914;
+    color: white;
+    padding: 10px 23px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
+    border: none;
+    border-radius: 7px;
+
+}
+.divider{
+    height: 5px;
+    background-color: rgb(102, 101, 101);
+}
+.tv-shows{
+    height: 700px;
+    background-color: #000;
+    color: white;
+}
+.text-2-1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.text-2-2{
+    font-size: 24px;
+}
+.vid{
+    position: absolute;
+    padding-left: 66px;
+    padding-top: 85px;
+}
+.tv-img{
+    position: relative;
+    width: 100%;
+   
+}
