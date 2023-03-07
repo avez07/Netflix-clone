@@ -169,6 +169,7 @@ body{
     font-size: 24px;
     padding: 10px 20px;
 }
+
 @media only screen and (max-width: 767px) {
 body{
     text-align: center;
@@ -240,4 +241,31 @@ body{
     position: static;
     margin-bottom: 30px;
 }
+}
+@media only screen and (min-width: 768px) {
+    .vid-2 {
+        position: absolute;
+        top: 184em;
+        left: 113px;
+        padding: 0;
+    }
+    video.img-fluid {
+        height: 360px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .vid {
+        position: absolute;
+        padding-left: 81px;
+        padding-top: 102px;
+    }
+    .vid-2 {
+        position: absolute;
+        top: auto;
+        left: auto;
+        
+    }
+    video.img-fluid {
+        height: auto;
+    }
 }
