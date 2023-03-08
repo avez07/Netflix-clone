@@ -58,13 +58,15 @@ body{
 }
 .text3{
     font-size: 20px;
+    color: #ffff;
+    text-align: center;
 }
 .email-search{
-    padding: 24px 16px 8px ;
+    padding: 16px 12px ;
     width: 100%;
-    background-color: #0000008f;
+    background-color: #ffffff;
     color: white;
-    border-radius: 7px;
+    border-radius: 5px;
     outline: 1px solid white;
 }
 .form{
@@ -140,11 +142,11 @@ body{
     
 }
 .btn-3{
-    width: 95%;
+    width: 70%;
     text-align: left;
     padding: 24px;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
    background-color: #2d2d2d;
    color: white;
 }
@@ -163,11 +165,24 @@ body{
 .para{
     background-color:#2d2d2d ;
     color: white;
-    width: 95%;
+    width: 70%;
     margin: auto;
+    font-weight: 300;
     border-radius: 0;
     font-size: 24px;
     padding: 10px 20px;
+}
+.btn-3:active .plus{
+    rotate: 45deg;
+}
+#footer{
+    background-color: #000;
+    color: #4d4a4a;
+}
+#footer ul li{
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 35px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -240,6 +255,26 @@ body{
     width: 80%;
     position: static;
     margin-bottom: 30px;
+}
+.btn-3{
+    width: 95%;
+    text-align: left;
+    padding: 10px 14px;
+    font-size: 20px;
+    font-weight: 500;
+   background-color: #2d2d2d;
+   color: white;
+}
+.para{
+    background-color:#2d2d2d ;
+    color: white;
+    width: 95%;
+    margin: auto;
+    font-weight: 300;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 10px 14px;
+    text-align: start !important;
 }
 }
 @media only screen and (min-width: 768px) {
