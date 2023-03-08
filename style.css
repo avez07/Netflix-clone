@@ -65,7 +65,6 @@ body{
     padding: 16px 12px ;
     width: 100%;
     background-color: #ffffff;
-    color: white;
     border-radius: 5px;
     outline: 1px solid white;
 }
@@ -102,6 +101,8 @@ body{
 }
 .text-2-2{
     font-size: 24px;
+    text-align: center;
+    padding-bottom: 50px;
 }
 .vid {
     position: absolute;
@@ -177,23 +178,38 @@ body{
 }
 #footer{
     background-color: #000;
-    color: #4d4a4a;
+    color: #807c7c;
 }
 #footer ul li{
     list-style-type: none;
     font-size: 15px;
     line-height: 35px;
 }
-
+@media only screen and (max-width: 992px) {
+    body{
+        text-align: center;
+    }
+    .kids{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 @media only screen and (max-width: 767px) {
 body{
     text-align: center;
     color: white;
 }
 .text{
-    font-size: 32px !important;
-    font-weight: 900;
+    font-size: 26px !important;
+    font-weight: 600;
     padding: 0 10px;
+}
+.head3 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+  padding: 40px 0 10px !important;
 }
 .head{
     height: 650px;
@@ -226,10 +242,11 @@ body{
     height: 30px !important;
 }
 .drop{
-    width: 20%;
+    width: auto;
+    margin-bottom: 10px;
 }
 .text-2-2{
-    margin: 20px 11px 53px;
+    margin: 20px 11px 0;
 }
 .vid {
     
@@ -260,7 +277,7 @@ body{
     width: 95%;
     text-align: left;
     padding: 10px 14px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
    background-color: #2d2d2d;
    color: white;
@@ -272,35 +289,43 @@ body{
     margin: auto;
     font-weight: 300;
     border-radius: 0;
-    font-size: 18px;
+    font-size: 17px;
     padding: 10px 14px;
     text-align: start !important;
 }
+
 }
-@media only screen and (min-width: 768px) {
-    .vid-2 {
-        position: absolute;
-        top: 184em;
-        left: 113px;
-        padding: 0;
-    }
+@media only screen and (min-width: 768px) and (max-width: 949px){
+   
     video.img-fluid {
         height: 360px;
     }
+    .form {
+        width: 70%;
+        margin: auto;
+        display: block !important;
+    }
+    .email-search {
+        margin-bottom: 20px;
+    }
+    .text-2-2 {
+        font-size: 20px;
 }
-@media only screen and (min-width: 992px) {
-    .vid {
-        position: absolute;
-        padding-left: 81px;
-        padding-top: 102px;
-    }
-    .vid-2 {
-        position: absolute;
-        top: auto;
-        left: auto;
-        
-    }
-    video.img-fluid {
-        height: auto;
-    }
+.text-2-1 {
+    font-size: 40px !important;
+    font-weight: 900;
+}
+.head3 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    padding: 50px 0 20px;
+    color: white;
+}
+.btn-3 {
+    width: 90%;
+}
+.para {
+    width: 90%;
+}
 }

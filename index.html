@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
@@ -23,7 +24,7 @@
 
                     <select name="English" class="drop" id="drop">
                        
-                        <option value="English" class=""> English</option>
+                        <option value="English" class="eng"> English</option>
                         <option value="Hindi">हिंदी</option>
                     </select>
                     <button class="btn-1">Sign in</button>
@@ -38,8 +39,8 @@
                     <div>
                         <p class="text3">Ready to watch? Enter your email to create or restart your membership.</p>
                         <form action="" class="d-flex form">
-                            <input type="search" class="email-search" id="search-1" placeholder="Email address">
-                            <input type="submit"value='Get Started >' class="btn-2">
+                            <input type="email" class="email-search form-control" id="search-1" placeholder="Email address">
+                            <input type="submit"value='Get Started &#62;' class="btn-2">
                         </form>
                     </div>
                 </div>
@@ -72,7 +73,7 @@
     <!-- section 2 -->
     <section id="tv-show-3" class="tv-shows-2">
         <div class="container-fluid">                                                 
-            <div class="row align-items-center" >
+            <div class="row align-items-center kids">
                 
                 <div class="col-lg-5 offset-lg-1">
                     <div>
@@ -130,14 +131,14 @@
     <!-- section 4 start for chidren -->
     <section id="tv-show-3" class="tv-shows-2">
         <div class="container-fluid">                                                 
-            <div class="row align-items-center" >
+            <div class="row align-items-center kids">
                 
                 <div class="col-lg-5 offset-lg-1">
                     <div>
                         <img src="images/child-poster-img.png" class="tv-img img-fluid" alt="mobile veiw">
                     </div>                    
                 </div>
-                <div class="col-lg-5 mx-auto pe-4">
+                <div class="col-lg-5 mx-auto">
                     <p class="text-2-1 text-5 text" style="font-size: 45px;">Create profiles for children.</p>
                     <p class="text-2-2 pe-4">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
                 </div>
@@ -245,49 +246,67 @@
         <div class="py-5">
             <p class="text3">Ready to watch? Enter your email to create or restart your membership.</p>
             <form action="" class="d-flex form">
-                <input type="search" class="email-search" id="search-1" placeholder="Email address">
+                <input type="email" class="email-search form-control" id="search-1" placeholder="Email address">
                 <input type="submit"value='Get Started &#62;' class="btn-2 text-light">
             </form>
         </div>
     </section>
     <div class="divider"></div>
     <section id="footer">
-        <div class="footer-l">
-            <div class="footer-1">
-                <ul>
-                    <li class="list-itens">FAQ</li>
-                    <li class="list-itens">Investor Relations</li>
-                    <li class="list-itens">Privacy</li>
-                    <li class="list-itens">Speed Test</li>
-                </ul>
+        <div class=" container footer-l">
+            <div>
+                <p class="pt-5 pb-4">Questions? Call 000-800-919-1694</p>
             </div>
-            <!-- list 2 -->
-            <div class="footer-1">
-                <ul>
-                    <li class="list-itens">Help Centre</li>
-                    <li class="list-itens">Jobs</li>
-                    <li class="list-itens">Cookie Preferencesy</li>
-                    <li class="list-itens">SLegal Notices</li>
-                </ul>
+            <div class="row">
+                <div class=" col-md-3 col-sm-6 text-start footer-1">
+                    <ul>
+                        <li class="list-itens">FAQ</li>
+                        <li class="list-itens">Investor Relations</li>
+                        <li class="list-itens">Privacy</li>
+                        <li class="list-itens">Speed Test</li>
+                    </ul>
+                </div>
+                <!-- list 2 -->
+                <div class=" col-md-3 col-sm-6 text-start footer-1">
+                    <ul>
+                        <li class="list-itens">Help Centre</li>
+                        <li class="list-itens">Jobs</li>
+                        <li class="list-itens">Cookie Preferencesy</li>
+                        <li class="list-itens">SLegal Notices</li>
+                    </ul>
+                </div>
+                <!-- list 3 -->
+                <div class=" col-md-3 col-sm-6 text-start footer-1">
+                    <ul>
+                        <li class="list-itens">Account</li>
+                        <li class="list-itens">Ways to Watch</li>
+                        <li class="list-itens">Corporate Information</li>
+                        <li class="list-itens">Only on Netflix</li>
+                    </ul>
+                </div>
+                <!-- list 4 -->
+                <div class="col-md-3 col-sm-6 text-start footer-1">
+                    <ul>
+                        <li class="list-itens">Media Centre</li>
+                        <li class="list-itens">Terms of Use</li>
+                        <li class="list-itens">Contact Us</li>
+                    </ul>
+                </div>
+            </div>  
+            <div class=" pt-4 text-start">
+                <span class="earth">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </span>
+
+                <select name="English" class="drop" id="drop" style="padding: 10px 15px 10px 40px;">
+                   
+                    <option value="English" class="eng"> English</option>
+                    <option value="Hindi">हिंदी</option>
+                </select>
             </div>
-            <!-- list 3 -->
-            <div class="footer-1">
-                <ul>
-                    <li class="list-itens">Account</li>
-                    <li class="list-itens">Ways to Watch</li>
-                    <li class="list-itens">Corporate Information</li>
-                    <li class="list-itens">Only on Netflix</li>
-                </ul>
-            </div>
-            <!-- list 4 -->
-            <div class="footer-1">
-                <ul>
-                    <li class="list-itens">Media Centre</li>
-                    <li class="list-itens">Terms of Use</li>
-                    <li class="list-itens">Contact Us</li>
-                </ul>
-            </div>
-            
+            <div class="last">
+                <p class="m-0 p-4 text-start">Netflix India</p>
+            </div>          
         </div>
     </section>
 
